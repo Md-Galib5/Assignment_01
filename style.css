@@ -1,9 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
+     box-sizing: border-box;
 }  
+
 body{
-  max-width: max-content;
+  width:100%;
 }
 .inter{
   font-family: "Inter", sans-serif;
@@ -172,7 +174,7 @@ nav{
   text-align: center; 
   max-width: 800px;   
   margin: 0 auto;      
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 .card-banner-h1{
@@ -232,15 +234,14 @@ nav{
 }
 
 .section-banner{
-    width: 1600px;
-    height: 840px;
+    
     margin: 0px 120px;   
     display: flex;
     align-items: center;
+    margin-top: 120px;
 }
 .list-banner {
-    width: 1360px;
-    height: 600px;
+    
     gap: 60px;
   display: flex;                 
   align-items: center;          
@@ -297,6 +298,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
 }
 .last-div{
     padding: 80px 40px;
