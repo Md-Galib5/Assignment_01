@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }  
-
+body{
+  max-width: max-content;
+}
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
